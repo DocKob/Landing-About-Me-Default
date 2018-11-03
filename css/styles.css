@@ -31,6 +31,7 @@ a {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 a:hover {
   text-decoration: underline;
@@ -46,6 +47,7 @@ a.btn {
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
   font-family: 'Montserrat', arial, sans-serif;
   padding: 8px 16px;
   font-weight: bold;
@@ -101,19 +103,6 @@ a.dotted-link:hover {
   text-decoration: none;
   color: #49515a;
 }
-/*
-iframe {
-
-    .header {
-        padding: 0;
-    }
-}
-
-.iframe-wrapper {
-    overflow: auto;
-    -webkit-overflow-scrolling:touch;
-}
-*/
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
@@ -262,6 +251,7 @@ iframe {
   -moz-transform: rotate(45deg) translate3d(0, 0, 0);
   -ms-transform: rotate(45deg) translate3d(0, 0, 0);
   -o-transform: rotate(45deg) translate3d(0, 0, 0);
+  transform: rotate(45deg) translate3d(0, 0, 0);
 }
 .latest .featured-image .ribbon .text:before,
 .latest .featured-image .ribbon .text:after {
