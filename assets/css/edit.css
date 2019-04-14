@@ -1,0 +1,15 @@
+.section-hovered{
+  -moz-box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+}
+.ui-placeholder {
+  border: 3px dashed #aaa;
+  background: #ccc;
+  margin-bottom: 30px;
+}
+.ui-sortable-helper {
+  -moz-box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+  box-shadow: 0 0 .8em rgba(0, 0, 0, .8);
+}
